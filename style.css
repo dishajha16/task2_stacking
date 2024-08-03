@@ -53,6 +53,10 @@ body {
   .image {
     height: 100vh;
   }
+  .image img{
+    object-fit: cover;
+  }
+    
 }
 
   
