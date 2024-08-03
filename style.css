@@ -21,7 +21,7 @@ body {
   font-size: 1.5rem;
 }
 .outer {
-  width: 1200px;
+  width: 1250px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -30,8 +30,9 @@ body {
 }
 .image {
   top: 0;
-  width: 1200px;
+  width: 1250px;
   height: 100vh;
+  border:10px solid yellow;
   background: rgb(20, 50, 100, 0.8);
   color: white;
   display: flex;
