@@ -40,3 +40,33 @@ body {
   position: sticky;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media (max-width: 768px) {
+  .heading,
+  .footer {
+    font-size: 2rem;
+    height: 150px;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+  .image {
+    height: 100vh;
+  }
+}
+@media (max-width: 480px) {
+  .heading,
+  .footer {
+    font-size: 1.5rem;
+    height: 100px;
+  }
+  .footer {
+    font-size: 0.75rem;
+  }
+  .image {
+    height: 100vh;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+}
